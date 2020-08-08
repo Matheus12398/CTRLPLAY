@@ -7,8 +7,8 @@ public class Grenade : MonoBehaviour
 {
 
     public float delay = 3f; // tempo para granada explodir
-    public float radius = 5f;
-    public float force = 700f;
+    public float radius = 5f; //raio da explosao
+    public float force = 700f; // força da explosao
     
 
     float countdown; // contagem regressiva
